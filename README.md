@@ -1,13 +1,23 @@
-1. Install protractor
-npm install -g protractor
+1. Install VSCode
 
-2. webdriver-manager update && webdriver-manager start
+2. Clone the project to local repo
 
-3. Open a separate terminal tab
+3. Go to project directory from VSCode Terminal
 
-4. Install npm dependency
-npm i
+4. Install protractor:
 
-5. Compile and run 
-tsc
-npm run cucumberTest
+    npm install -g protractor
+
+5. webdriver-manager update && webdriver-manager start
+
+6. Open a separate terminal tab
+
+7. Install npm dependency
+
+    npm install
+
+8. Compile and run 
+
+    tsc
+
+    npm run cucumberTest
